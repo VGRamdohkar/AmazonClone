@@ -1,0 +1,634 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0F1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+}
+.logocombo{
+    display:flex;
+}
+.navlogo{
+    height:50px;
+    width:143px;
+    
+}
+#logo{
+    background-image:url("AmazonLogo2.png");
+    background-size:cover;
+    height:50px;
+    width:100%;
+}
+.in{
+    height:50px;
+    width:35px;
+    color: white;
+    display:inline;
+    font-size:20px;
+    font-family: Arial;
+    align-content: space-around;
+}
+.addFirst{
+    font-size: 0.85rem;
+    color:#cccccc;
+    margin-left: 15px;
+} 
+.addSecond{
+    font-size:1rem;
+    color: white ;
+    margin:3px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+
+.nav-search{
+    display:flex;
+    background-color: rgb(250, 175, 63);
+    width:620px;
+    height:40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input{
+    width:100%;
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    font-size: 1.2rem;
+    color: #0F1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.nav-search:hover{
+    border:2px solid orange;
+}
+
+.Language{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flag{
+    background-image: url("Flag_of_India.svg.png");
+    height:16.2px;
+    width:21.6px;
+    background-size: cover;
+}
+.select-symbol{
+    background-color:transparent;
+    border:none;
+    color:white;
+}
+
+
+.acc{
+    display: flex;
+}
+span{
+    font-size: 0.85rem;
+}
+
+.second{
+    font-size: 1rem;
+    font-weight:700;
+    
+}
+.select-symbol2{
+    background-color:transparent;
+    border:none;
+    color:white;
+}
+.navcart{
+    font-size: 25px;
+}
+
+
+.panel{
+    background-color: #222f3d;
+    color:white;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: 549;
+    padding-top: 60px;
+    
+}
+.panel-all{
+    font-weight: 550;
+
+}
+.panel-options a{
+    display:inline;
+    text-decoration: none;  
+    color:white;
+    justify-content: space-evenly; 
+    margin-left: 10px; 
+}
+.panel-options{
+    width:87%;
+    font-size: 0.95rem;
+}
+.select3{
+    background-color:transparent;
+    border:none;
+    color:white;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+} 
+
+/**hero section**/
+
+.hero-section{
+    background-image:url("firstBig.jpg");
+    background-size: cover;
+    height: 370px;
+}
+
+/* shop-section */
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #dccbd5;
+}
+.box{
+    height:400px;
+    width:23%;
+    border:2px solid white;
+    background-color: white;
+    padding:20px 0px 20px;
+    margin-top: 15px;
+}  
+
+.images{
+    display:flex;
+
+}
+.combo1{
+    display:flex;
+}
+
+.box-img1{
+    background-image: url("boat.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-size:auto;
+    background-position: center; 
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+    margin-left:0rem;
+}
+.box-img2{
+    background-image: url("boult.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    /* background-size:auto; */
+    background-position: center; 
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+}
+.box-img3{
+    background-image: url("noise.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+}
+.box-img4{
+    background-image: url("zebronics.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img5{
+    background-image: url("cushoncover.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center; 
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img6{
+    background-image: url("vases.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img7{
+    background-image: url("homestorage.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img8{
+    background-image: url("lighting.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img9{
+    background-image: url("AC.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img10{
+    background-image: url("fridge.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img11{
+    background-image: url("oven.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img12{
+    background-image: url("washing\ machine.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img13{
+    background-image: url("helmets.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img14{
+    background-image: url("tyre&rim.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img15{
+    background-image: url("vaccum\ cleaner.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+.box-img16{
+    background-image: url("cleaning\ accessories.jpg");
+    height:102px;
+    width:140px; 
+    background-size:cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    margin-top:1rem;
+    margin-bottom:0.3rem;
+    margin-right:0.5rem;
+
+}
+
+#img-text{
+    color:black;
+    font-size: 0.85rem;
+}
+.box-content{
+    margin-left:1rem;
+    margin-right:1rem;
+   
+}
+.box-content a{
+    color:#007185;
+    text-decoration: none;
+}
+
+.box5{
+    height: 259px;
+    width: 95.5%;
+    background-color: white;
+    border: 2px solid white;
+    margin-top: 20px;
+    padding:23px 15px 23px 15px;
+}
+.box5-imgs{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+}
+.box5-img1{
+    background-image: url("box5-img1.jpg");
+    height:200px;
+    width:216px;
+    margin:10px 10px 10px 10px;
+    
+}
+.box5-img2{
+    background-image: url("box5-img2.jpg");
+    height:200px;
+    width:128.5px;
+    margin:10px 10px 10px 10px;
+} 
+.box5-img3{
+    background-image: url("box5-img3.jpg");
+    height:200px;
+    width:270px;
+    margin:10px 10px 10px 10px;
+} 
+.box5-img4{
+    background-image: url("box5-img4.jpg");
+    height:200px;
+    width:300px;
+    margin:10px 10px 10px 10px;
+} 
+.box5-img5{
+    background-image: url("box5-img5.jpg");
+    height:200px;
+    width:200px;
+    margin:10px 10px 10px 10px;
+}  
+.box6 {
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    border: none;
+    width:75%;
+    height:248px;
+    padding:none;
+    margin-top: 20px;
+} 
+.sponsored{
+    margin-left:66%;
+    color:grey;
+}
+/* footer */ 
+.foot-panel1{
+    height: 100px;
+    width:100%;
+    background-color: white;
+    color:black;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    margin-top: 20px;
+    border-top:1px solid #999999;
+    font-family: Arial;
+    font-size: 0.95rem;;
+}
+.foot-panel2{
+    height:50px;
+    background-color: #37475a;
+    color:white;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+.foot-panel3{
+    height:400px;
+    background-color: #232f3e;
+    color:white;
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.foot-panel3 p{
+    font-weight: bold;
+    font-size:1.2rem;
+    font-family: Arial;
+    margin-top:6px;
+    margin-bottom:14px;
+   
+}
+ul{
+    margin-top:60px;
+    margin-bottom:60px;
+    padding:0px 10px;
+    height:268px;
+    width:139;
+}
+.foot-panel3 a{
+    display:block;
+    font-size: 1rem;
+    color:#dddddd;
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+
+.foot-panel4{
+    height:100px;
+    background-color: #232f3e;
+    border-top:1px solid  #dddddd6d;
+    border-top-style:inset;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("AmazonLogo2.png");
+    background-size: cover;
+    height :23px;
+    width:66px;
+    margin-right: 80px;
+}
+.foot-lang select{
+    background-color: transparent;
+    border:none;
+    color:white;
+}
+.foot-country{
+    display:flex;
+    height:33px;
+    width: 116px;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: transparent;
+    border:1px solid white;
+    border-radius: 2%;
+    font-family: Arial;
+    font-size: 0.9rem;
+    color:white;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.fg{
+    background-image: url("Flag_of_India.svg.png");
+    height:16.2px;
+    width:21.6px;
+    background-size: cover;
+}
+
+.foot-panel5{
+    height:200px;
+    background-color: #131A22;
+    display: flex;
+    flex-wrap:wrap;
+    border:1px solid none;
+    /* padding:10px 170px 10px 130px; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 130px;
+    padding-right: 130px;
+    font-family: Arial;
+    font-size: .85rem;
+    
+    /* justify-content: center;
+    align-items: center; */
+}
+.foot-panel5 a{
+    text-decoration: none;
+    color:#999999;
+
+}
+#a{
+    color:white;
+    font-weight: bold;
+}
+.foot-panel5 ul{
+flex-basis:21%;
+flex-wrap:wrap;
+}
+
+.foot-panel6{
+    background-color: #131A22; 
+    height:80px;
+    font-size: 0.85rem;
+    text-align:center;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.foot-panel6 a{
+   text-decoration: none;
+   color:white;
+   padding:0px 7px 0px 7px; 
+}
+.o{
+    text-align: center;
+}
+.o2{
+    padding-top: 5px;
+    text-align: center;
+    
+}
+ /* hover-section */
+
+ .sponsored:hover{
+    color: black;
+ }
+ .foot-panel5 a:hover,
+ .foot-panel3 a:hover,
+ .box-content a:hover {
+   text-decoration: underline;
+ }
+ 

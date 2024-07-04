@@ -23,7 +23,7 @@
     
 }
 #logo{
-    background-image:url("AmazonLogo2.png");
+    background-image:url("/amazonClone/images/AmazonLogo2.png");
     background-size:cover;
     height:50px;
     width:100%;
@@ -96,7 +96,7 @@
 
 }
 .flag{
-    background-image: url("Flag_of_India.svg.png");
+    background-image: url("/amazonClone/images/Flag_of_India.svg.png");
     height:16.2px;
     width:21.6px;
     background-size: cover;
@@ -171,7 +171,7 @@ span{
 /**hero section**/
 
 .hero-section{
-    background-image:url("firstBig.jpg");
+    background-image:url("/amazonClone/images/firstBig.jpg");
     background-size: cover;
     height: 370px;
 }
@@ -201,7 +201,7 @@ span{
 }
 
 .box-img1{
-    background-image: url("boat.jpg");
+    background-image: url("/amazonClone/images/boat.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -214,7 +214,7 @@ span{
     margin-left:0rem;
 }
 .box-img2{
-    background-image: url("boult.jpg");
+    background-image: url("/amazonClone/images/boult.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -226,7 +226,7 @@ span{
     margin-right:0.5rem;
 }
 .box-img3{
-    background-image: url("noise.jpg");
+    background-image: url("/amazonClone/images/noise.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -237,7 +237,7 @@ span{
     margin-right:0.5rem;
 }
 .box-img4{
-    background-image: url("zebronics.jpg");
+    background-image: url("/amazonClone/images/zebronics.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -249,7 +249,7 @@ span{
 
 }
 .box-img5{
-    background-image: url("cushoncover.jpg");
+    background-image: url("/amazonClone/images/cushoncover.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -261,7 +261,7 @@ span{
 
 }
 .box-img6{
-    background-image: url("vases.jpg");
+    background-image: url("/amazonClone/images/vases.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -273,7 +273,7 @@ span{
 
 }
 .box-img7{
-    background-image: url("homestorage.jpg");
+    background-image: url("/amazonClone/images/homestorage.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -285,7 +285,7 @@ span{
 
 }
 .box-img8{
-    background-image: url("lighting.jpg");
+    background-image: url("/amazonClone/images/lighting.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -297,7 +297,7 @@ span{
 
 }
 .box-img9{
-    background-image: url("AC.jpg");
+    background-image: url("/amazonClone/images/AC.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -309,7 +309,7 @@ span{
 
 }
 .box-img10{
-    background-image: url("fridge.jpg");
+    background-image: url("/amazonClone/images/fridge.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -321,7 +321,7 @@ span{
 
 }
 .box-img11{
-    background-image: url("oven.jpg");
+    background-image: url("/amazonClone/images/oven.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -333,7 +333,7 @@ span{
 
 }
 .box-img12{
-    background-image: url("washing\ machine.jpg");
+    background-image: url("/amazonClone/images/washing\ machine.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -345,7 +345,7 @@ span{
 
 }
 .box-img13{
-    background-image: url("helmets.jpg");
+    background-image: url("/amazonClone/images/helmets.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -357,7 +357,7 @@ span{
 
 }
 .box-img14{
-    background-image: url("tyre&rim.jpg");
+    background-image: url("/amazonClone/images/tyre&rim.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -369,7 +369,7 @@ span{
 
 }
 .box-img15{
-    background-image: url("vaccum\ cleaner.jpg");
+    background-image: url("/amazonClone/images/vaccum\ cleaner.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -381,7 +381,7 @@ span{
 
 }
 .box-img16{
-    background-image: url("cleaning\ accessories.jpg");
+    background-image: url("/amazonClone/images/cleaning\ accessories.jpg");
     height:102px;
     width:140px; 
     background-size:cover;
@@ -423,32 +423,32 @@ span{
     justify-content: space-evenly;
 }
 .box5-img1{
-    background-image: url("box5-img1.jpg");
+    background-image: url("/amazonClone/images/box5-img1.jpg");
     height:200px;
     width:216px;
     margin:10px 10px 10px 10px;
     
 }
 .box5-img2{
-    background-image: url("box5-img2.jpg");
+    background-image: url("/amazonClone/images/box5-img2.jpg");
     height:200px;
     width:128.5px;
     margin:10px 10px 10px 10px;
 } 
 .box5-img3{
-    background-image: url("box5-img3.jpg");
+    background-image: url("/amazonClone/images/box5-img3.jpg");
     height:200px;
     width:270px;
     margin:10px 10px 10px 10px;
 } 
 .box5-img4{
-    background-image: url("box5-img4.jpg");
+    background-image: url("/amazonClone/images/box5-img4.jpg");
     height:200px;
     width:300px;
     margin:10px 10px 10px 10px;
 } 
 .box5-img5{
-    background-image: url("box5-img5.jpg");
+    background-image: url("/amazonClone/images/box5-img5.jpg");
     height:200px;
     width:200px;
     margin:10px 10px 10px 10px;
@@ -534,7 +534,7 @@ ul{
 }
 
 .logo{
-    background-image: url("AmazonLogo2.png");
+    background-image: url("/amazonClone/images/AmazonLogo2.png");
     background-size: cover;
     height :23px;
     width:66px;
@@ -562,7 +562,7 @@ ul{
 
 }
 .fg{
-    background-image: url("Flag_of_India.svg.png");
+    background-image: url("/amazonClone/images/Flag_of_India.svg.png");
     height:16.2px;
     width:21.6px;
     background-size: cover;
